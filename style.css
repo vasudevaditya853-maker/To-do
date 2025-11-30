@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: #E3E3E3;
+}
+.logo span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: #E3E3E3;
+    margin: 35px;
+    
+
+
+}
+body{
+    background-color: #1B3C53;
+    min-height: 100vh;
+    min-width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 0 20px;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #E3E3E3;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100vw;
+}
+.container{
+    height: 90%;
+    width: 40%;
+    background-color:#456882;
+    border-radius: 20px;
+    padding: 10px 5px;
+}
+.title span{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#E3E3E3;
+    font-weight: 700;
+    
+}
+.title{
+    text-align: center;
+}
+form{
+    text-align: center;
+
+}
+input{
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #E3E3E3;
+    background:#c5c5c5;
+    color: black;
+    
+    
+}
+.input-box form button{
+    height: 38px;
+    width: 70px;
+    border-radius: 3px;
+    outline:none;
+    border: none;
+    color: black;
+    font-size: 18px;
+
+}
+.input-box form button i{
+    color: black;
+}
+
+input::placeholder{
+    color: black;
+    padding-left: 5px;
+    
+    
+}
+main ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#456882;
+    width: 85%;
+    height: 35px;
+    border: 2px solid #E3E3E3;
+    margin: 20px;
+    
+}
+main ul li button{
+    width: 20px;
+    height: 100%;
+    
+    
+}
+main ul li button span i{
+    color: black;
+    
+}
+main ul{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
